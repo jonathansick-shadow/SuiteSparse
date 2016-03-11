@@ -1,5 +1,8 @@
 TAP_PACKAGE=1
 
+# Parallel builds break SuiteSparse
+NJOBS=1
+
 config()
 {
     # use the correct config file when building on OSX

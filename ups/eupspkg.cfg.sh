@@ -9,4 +9,7 @@ config()
     if [[ "$(uname)" == "Darwin" ]]; then
         mv SuiteSparse_config/SuiteSparse_config_Mac.mk SuiteSparse_config/SuiteSparse_config.mk
     fi
+
+    mkdir lib
+    mkdir include
 }
